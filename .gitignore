@@ -1,0 +1,31 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Generated runtime assets (built from assets/ by scripts/prepare-assets.mjs)
+public/game/
+
+# Playwright
+/test-results/
+/playwright/.cache/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Local reference clone of the challenge
+_challenge/
+
+# Local Playwright HTML report (the final report is committed under docs/reports)
+/playwright-report/

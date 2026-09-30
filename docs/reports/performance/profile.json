@@ -1,0 +1,3064 @@
+{
+  "generatedAt": "2026-09-30T20:54:30.210Z",
+  "environment": {
+    "browser": "Chromium 151.0.7922.34 (Playwright, new headless mode)",
+    "renderer": "ANGLE (AMD, AMD Radeon RX 7600 (0x00007480) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "dpr": 1,
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+    "viewport": "1920 × 1080 CSS px",
+    "matchSeconds": 180,
+    "hardware": "AMD Ryzen 5 5600 (6C/12T), AMD Radeon RX 7600 (driver 32.0.31041.1004), 16 GB RAM, Windows 11 Pro, display 1920x1080 @ 144 Hz"
+  },
+  "matches": [
+    {
+      "id": "default",
+      "label": "Default setup (180 s, spawn every 3 s)",
+      "frames": 21516,
+      "avgFps": 119.1,
+      "frameMs": {
+        "mean": 8.4,
+        "p50": 8,
+        "p95": 11.5,
+        "p99": 12.4,
+        "max": 27.6
+      },
+      "slowFrames": {
+        "over20ms": 1,
+        "over33ms": 0
+      },
+      "entities": {
+        "enemiesMax": 8,
+        "enemiesAvg": 4.8,
+        "projectilesMax": 8,
+        "projectilesAvg": 1.5,
+        "effectsMax": 70,
+        "renderablesMax": 181
+      },
+      "heapMB": {
+        "start": 11.19,
+        "end": 11.38,
+        "max": 13.29
+      },
+      "match": {
+        "score": 33,
+        "elapsed": 180,
+        "stats": {
+          "playerShots": {
+            "front": 432,
+            "left": 150,
+            "right": 150
+          },
+          "enemyShots": 206,
+          "projectilesFired": 1538,
+          "hitsOnEnemies": 95,
+          "hitsOnPlayer": 200,
+          "enemiesSpawned": 58,
+          "enemiesSunk": 33,
+          "chasersRammed": 21
+        }
+      },
+      "timeline": [
+        {
+          "t": 1.0833333333333344,
+          "enemies": 0,
+          "projectiles": 1,
+          "effects": 17,
+          "renderables": 55,
+          "heapMB": 11.192867279052734
+        },
+        {
+          "t": 2.083333333333331,
+          "enemies": 1,
+          "projectiles": 3,
+          "effects": 15,
+          "renderables": 68,
+          "heapMB": 10.559703826904297
+        },
+        {
+          "t": 3.0833333333333273,
+          "enemies": 1,
+          "projectiles": 8,
+          "effects": 13,
+          "renderables": 68,
+          "heapMB": 9.494617462158203
+        },
+        {
+          "t": 4.083333333333324,
+          "enemies": 1,
+          "projectiles": 4,
+          "effects": 29,
+          "renderables": 76,
+          "heapMB": 11.082374572753906
+        },
+        {
+          "t": 5.083333333333321,
+          "enemies": 1,
+          "projectiles": 4,
+          "effects": 41,
+          "renderables": 85,
+          "heapMB": 10.156996726989746
+        },
+        {
+          "t": 6.083333333333317,
+          "enemies": 1,
+          "projectiles": 0,
+          "effects": 17,
+          "renderables": 90,
+          "heapMB": 11.520678520202637
+        },
+        {
+          "t": 7.0833333333333135,
+          "enemies": 1,
+          "projectiles": 1,
+          "effects": 11,
+          "renderables": 90,
+          "heapMB": 9.76206111907959
+        },
+        {
+          "t": 8.083333333333314,
+          "enemies": 2,
+          "projectiles": 4,
+          "effects": 11,
+          "renderables": 99,
+          "heapMB": 11.154341697692871
+        },
+        {
+          "t": 9.083333333333364,
+          "enemies": 2,
+          "projectiles": 1,
+          "effects": 8,
+          "renderables": 99,
+          "heapMB": 12.459288597106934
+        },
+        {
+          "t": 10.083333333333414,
+          "enemies": 2,
+          "projectiles": 3,
+          "effects": 13,
+          "renderables": 99,
+          "heapMB": 10.617011070251465
+        },
+        {
+          "t": 11.083333333333464,
+          "enemies": 3,
+          "projectiles": 4,
+          "effects": 16,
+          "renderables": 108,
+          "heapMB": 11.86523723602295
+        },
+        {
+          "t": 12.083333333333513,
+          "enemies": 3,
+          "projectiles": 0,
+          "effects": 5,
+          "renderables": 108,
+          "heapMB": 10.001124382019043
+        },
+        {
+          "t": 13.083333333333563,
+          "enemies": 3,
+          "projectiles": 1,
+          "effects": 15,
+          "renderables": 108,
+          "heapMB": 11.37372875213623
+        },
+        {
+          "t": 14.066666666666945,
+          "enemies": 4,
+          "projectiles": 1,
+          "effects": 8,
+          "renderables": 117,
+          "heapMB": 12.80285930633545
+        },
+        {
+          "t": 15.083333333333663,
+          "enemies": 4,
+          "projectiles": 1,
+          "effects": 9,
+          "renderables": 117,
+          "heapMB": 11.158183097839355
+        },
+        {
+          "t": 16.066666666667036,
+          "enemies": 3,
+          "projectiles": 2,
+          "effects": 29,
+          "renderables": 108,
+          "heapMB": 12.457762718200684
+        },
+        {
+          "t": 17.083333333333645,
+          "enemies": 4,
+          "projectiles": 4,
+          "effects": 19,
+          "renderables": 117,
+          "heapMB": 10.750575065612793
+        },
+        {
+          "t": 18.066666666666922,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 15,
+          "renderables": 117,
+          "heapMB": 12.219534873962402
+        },
+        {
+          "t": 19.08333333333353,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 11,
+          "renderables": 117,
+          "heapMB": 10.690367698669434
+        },
+        {
+          "t": 20.06666666666681,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 18,
+          "renderables": 117,
+          "heapMB": 12.160597801208496
+        },
+        {
+          "t": 21.083333333333417,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 11,
+          "renderables": 117,
+          "heapMB": 10.588423728942871
+        },
+        {
+          "t": 22.066666666666695,
+          "enemies": 4,
+          "projectiles": 2,
+          "effects": 21,
+          "renderables": 117,
+          "heapMB": 12.129897117614746
+        },
+        {
+          "t": 23.083333333333304,
+          "enemies": 5,
+          "projectiles": 3,
+          "effects": 24,
+          "renderables": 126,
+          "heapMB": 10.603163719177246
+        },
+        {
+          "t": 24.083333333333247,
+          "enemies": 4,
+          "projectiles": 1,
+          "effects": 26,
+          "renderables": 117,
+          "heapMB": 11.942816734313965
+        },
+        {
+          "t": 25.08333333333319,
+          "enemies": 4,
+          "projectiles": 1,
+          "effects": 12,
+          "renderables": 117,
+          "heapMB": 13.29495906829834
+        },
+        {
+          "t": 26.083333333333133,
+          "enemies": 5,
+          "projectiles": 4,
+          "effects": 16,
+          "renderables": 126,
+          "heapMB": 11.63339900970459
+        },
+        {
+          "t": 27.083333333333076,
+          "enemies": 5,
+          "projectiles": 0,
+          "effects": 20,
+          "renderables": 126,
+          "heapMB": 13.064482688903809
+        },
+        {
+          "t": 28.08333333333302,
+          "enemies": 5,
+          "projectiles": 0,
+          "effects": 22,
+          "renderables": 126,
+          "heapMB": 11.441313743591309
+        },
+        {
+          "t": 29.066666666666297,
+          "enemies": 6,
+          "projectiles": 0,
+          "effects": 20,
+          "renderables": 135,
+          "heapMB": 12.657771110534668
+        },
+        {
+          "t": 30.06666666666624,
+          "enemies": 5,
+          "projectiles": 0,
+          "effects": 23,
+          "renderables": 126,
+          "heapMB": 9.720088005065918
+        },
+        {
+          "t": 31.08333333333285,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 34,
+          "renderables": 119,
+          "heapMB": 10.24278736114502
+        },
+        {
+          "t": 32.083333333332796,
+          "enemies": 5,
+          "projectiles": 3,
+          "effects": 17,
+          "renderables": 127,
+          "heapMB": 10.433682441711426
+        },
+        {
+          "t": 33.08333333333274,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 32,
+          "renderables": 118,
+          "heapMB": 10.123089790344238
+        },
+        {
+          "t": 34.08333333333268,
+          "enemies": 4,
+          "projectiles": 4,
+          "effects": 25,
+          "renderables": 118,
+          "heapMB": 11.192082405090332
+        },
+        {
+          "t": 35.083333333332625,
+          "enemies": 4,
+          "projectiles": 1,
+          "effects": 41,
+          "renderables": 119,
+          "heapMB": 10.868626594543457
+        },
+        {
+          "t": 36.0666666666659,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 27,
+          "renderables": 118,
+          "heapMB": 10.707432746887207
+        },
+        {
+          "t": 37.08333333333251,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 13,
+          "renderables": 118,
+          "heapMB": 10.258320808410645
+        },
+        {
+          "t": 38.083333333332455,
+          "enemies": 5,
+          "projectiles": 0,
+          "effects": 20,
+          "renderables": 127,
+          "heapMB": 11.308880805969238
+        },
+        {
+          "t": 39.0833333333324,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 38,
+          "renderables": 119,
+          "heapMB": 10.008689880371094
+        },
+        {
+          "t": 40.08333333333234,
+          "enemies": 3,
+          "projectiles": 1,
+          "effects": 40,
+          "renderables": 117,
+          "heapMB": 10.021398544311523
+        },
+        {
+          "t": 41.083333333332284,
+          "enemies": 2,
+          "projectiles": 3,
+          "effects": 46,
+          "renderables": 108,
+          "heapMB": 10.31078815460205
+        },
+        {
+          "t": 42.08333333333223,
+          "enemies": 2,
+          "projectiles": 0,
+          "effects": 10,
+          "renderables": 108,
+          "heapMB": 10.029068946838379
+        },
+        {
+          "t": 43.08333333333217,
+          "enemies": 2,
+          "projectiles": 0,
+          "effects": 8,
+          "renderables": 108,
+          "heapMB": 10.340096473693848
+        },
+        {
+          "t": 44.083333333332114,
+          "enemies": 3,
+          "projectiles": 2,
+          "effects": 8,
+          "renderables": 117,
+          "heapMB": 9.916901588439941
+        },
+        {
+          "t": 45.08333333333206,
+          "enemies": 3,
+          "projectiles": 0,
+          "effects": 5,
+          "renderables": 117,
+          "heapMB": 9.935715675354004
+        },
+        {
+          "t": 46.083333333332,
+          "enemies": 3,
+          "projectiles": 0,
+          "effects": 11,
+          "renderables": 117,
+          "heapMB": 10.602826118469238
+        },
+        {
+          "t": 47.08333333333194,
+          "enemies": 4,
+          "projectiles": 3,
+          "effects": 16,
+          "renderables": 126,
+          "heapMB": 9.967602729797363
+        },
+        {
+          "t": 48.083333333331886,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 8,
+          "renderables": 126,
+          "heapMB": 10.05285358428955
+        },
+        {
+          "t": 49.066666666665164,
+          "enemies": 3,
+          "projectiles": 0,
+          "effects": 28,
+          "renderables": 118,
+          "heapMB": 10.555291175842285
+        },
+        {
+          "t": 50.08333333333177,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 12,
+          "renderables": 126,
+          "heapMB": 10.180527687072754
+        },
+        {
+          "t": 51.083333333331716,
+          "enemies": 3,
+          "projectiles": 1,
+          "effects": 25,
+          "renderables": 118,
+          "heapMB": 10.38610553741455
+        },
+        {
+          "t": 52.08333333333166,
+          "enemies": 3,
+          "projectiles": 0,
+          "effects": 12,
+          "renderables": 117,
+          "heapMB": 10.505959510803223
+        },
+        {
+          "t": 53.066666666664936,
+          "enemies": 4,
+          "projectiles": 3,
+          "effects": 23,
+          "renderables": 126,
+          "heapMB": 10.648484230041504
+        },
+        {
+          "t": 54.083333333331545,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 12,
+          "renderables": 126,
+          "heapMB": 10.080124855041504
+        },
+        {
+          "t": 55.08333333333149,
+          "enemies": 4,
+          "projectiles": 1,
+          "effects": 17,
+          "renderables": 126,
+          "heapMB": 10.423161506652832
+        },
+        {
+          "t": 56.066666666664766,
+          "enemies": 5,
+          "projectiles": 0,
+          "effects": 17,
+          "renderables": 135,
+          "heapMB": 10.783913612365723
+        },
+        {
+          "t": 57.083333333331375,
+          "enemies": 5,
+          "projectiles": 4,
+          "effects": 19,
+          "renderables": 135,
+          "heapMB": 10.694050788879395
+        },
+        {
+          "t": 58.08333333333132,
+          "enemies": 5,
+          "projectiles": 5,
+          "effects": 34,
+          "renderables": 135,
+          "heapMB": 10.57479190826416
+        },
+        {
+          "t": 59.08333333333126,
+          "enemies": 6,
+          "projectiles": 0,
+          "effects": 41,
+          "renderables": 144,
+          "heapMB": 10.657387733459473
+        },
+        {
+          "t": 60.083333333331204,
+          "enemies": 6,
+          "projectiles": 2,
+          "effects": 24,
+          "renderables": 144,
+          "heapMB": 11.071507453918457
+        },
+        {
+          "t": 61.08333333333115,
+          "enemies": 6,
+          "projectiles": 1,
+          "effects": 31,
+          "renderables": 148,
+          "heapMB": 10.884797096252441
+        },
+        {
+          "t": 62.08333333333109,
+          "enemies": 6,
+          "projectiles": 5,
+          "effects": 51,
+          "renderables": 149,
+          "heapMB": 11.035073280334473
+        },
+        {
+          "t": 63.08333333333103,
+          "enemies": 5,
+          "projectiles": 1,
+          "effects": 60,
+          "renderables": 147,
+          "heapMB": 11.146061897277832
+        },
+        {
+          "t": 64.06666666666432,
+          "enemies": 4,
+          "projectiles": 2,
+          "effects": 62,
+          "renderables": 138,
+          "heapMB": 11.113080024719238
+        },
+        {
+          "t": 65.08333333333093,
+          "enemies": 4,
+          "projectiles": 4,
+          "effects": 43,
+          "renderables": 137,
+          "heapMB": 10.817448616027832
+        },
+        {
+          "t": 66.08333333333087,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 26,
+          "renderables": 137,
+          "heapMB": 11.09359073638916
+        },
+        {
+          "t": 67.08333333333081,
+          "enemies": 4,
+          "projectiles": 2,
+          "effects": 26,
+          "renderables": 137,
+          "heapMB": 11.273133277893066
+        },
+        {
+          "t": 68.08333333333076,
+          "enemies": 5,
+          "projectiles": 0,
+          "effects": 25,
+          "renderables": 146,
+          "heapMB": 10.784924507141113
+        },
+        {
+          "t": 69.0833333333307,
+          "enemies": 5,
+          "projectiles": 2,
+          "effects": 22,
+          "renderables": 146,
+          "heapMB": 10.892544746398926
+        },
+        {
+          "t": 70.08333333333064,
+          "enemies": 5,
+          "projectiles": 3,
+          "effects": 27,
+          "renderables": 146,
+          "heapMB": 9.969456672668457
+        },
+        {
+          "t": 71.08333333333059,
+          "enemies": 6,
+          "projectiles": 4,
+          "effects": 43,
+          "renderables": 155,
+          "heapMB": 10.369359016418457
+        },
+        {
+          "t": 72.08333333333053,
+          "enemies": 5,
+          "projectiles": 0,
+          "effects": 38,
+          "renderables": 147,
+          "heapMB": 11.39479923248291
+        },
+        {
+          "t": 73.08333333333047,
+          "enemies": 5,
+          "projectiles": 0,
+          "effects": 24,
+          "renderables": 146,
+          "heapMB": 11.006112098693848
+        },
+        {
+          "t": 74.08333333333042,
+          "enemies": 6,
+          "projectiles": 1,
+          "effects": 20,
+          "renderables": 155,
+          "heapMB": 10.524643898010254
+        },
+        {
+          "t": 75.08333333333036,
+          "enemies": 5,
+          "projectiles": 0,
+          "effects": 43,
+          "renderables": 147,
+          "heapMB": 10.182099342346191
+        },
+        {
+          "t": 76.0833333333303,
+          "enemies": 5,
+          "projectiles": 3,
+          "effects": 36,
+          "renderables": 146,
+          "heapMB": 11.344674110412598
+        },
+        {
+          "t": 77.08333333333024,
+          "enemies": 6,
+          "projectiles": 2,
+          "effects": 31,
+          "renderables": 155,
+          "heapMB": 10.893532752990723
+        },
+        {
+          "t": 78.08333333333019,
+          "enemies": 6,
+          "projectiles": 1,
+          "effects": 24,
+          "renderables": 155,
+          "heapMB": 10.364121437072754
+        },
+        {
+          "t": 79.06666666666347,
+          "enemies": 6,
+          "projectiles": 1,
+          "effects": 22,
+          "renderables": 155,
+          "heapMB": 11.439263343811035
+        },
+        {
+          "t": 80.08333333333007,
+          "enemies": 7,
+          "projectiles": 0,
+          "effects": 34,
+          "renderables": 164,
+          "heapMB": 11.082966804504395
+        },
+        {
+          "t": 81.08333333333002,
+          "enemies": 5,
+          "projectiles": 1,
+          "effects": 56,
+          "renderables": 153,
+          "heapMB": 10.992321968078613
+        },
+        {
+          "t": 82.08333333332996,
+          "enemies": 5,
+          "projectiles": 1,
+          "effects": 38,
+          "renderables": 153,
+          "heapMB": 10.60360050201416
+        },
+        {
+          "t": 83.0833333333299,
+          "enemies": 6,
+          "projectiles": 2,
+          "effects": 37,
+          "renderables": 162,
+          "heapMB": 10.187821388244629
+        },
+        {
+          "t": 84.08333333332985,
+          "enemies": 6,
+          "projectiles": 1,
+          "effects": 30,
+          "renderables": 162,
+          "heapMB": 11.225907325744629
+        },
+        {
+          "t": 85.08333333332979,
+          "enemies": 6,
+          "projectiles": 1,
+          "effects": 42,
+          "renderables": 162,
+          "heapMB": 11.022950172424316
+        },
+        {
+          "t": 86.06666666666307,
+          "enemies": 6,
+          "projectiles": 2,
+          "effects": 52,
+          "renderables": 163,
+          "heapMB": 10.949921607971191
+        },
+        {
+          "t": 87.08333333332968,
+          "enemies": 5,
+          "projectiles": 1,
+          "effects": 52,
+          "renderables": 154,
+          "heapMB": 10.911484718322754
+        },
+        {
+          "t": 88.08333333332962,
+          "enemies": 4,
+          "projectiles": 4,
+          "effects": 46,
+          "renderables": 144,
+          "heapMB": 10.612278938293457
+        },
+        {
+          "t": 89.0666666666629,
+          "enemies": 4,
+          "projectiles": 1,
+          "effects": 49,
+          "renderables": 145,
+          "heapMB": 11.63002872467041
+        },
+        {
+          "t": 90.0833333333295,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 28,
+          "renderables": 144,
+          "heapMB": 11.078530311584473
+        },
+        {
+          "t": 91.08333333332945,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 15,
+          "renderables": 144,
+          "heapMB": 10.3666353225708
+        },
+        {
+          "t": 92.08333333332939,
+          "enemies": 5,
+          "projectiles": 0,
+          "effects": 20,
+          "renderables": 153,
+          "heapMB": 10.49196720123291
+        },
+        {
+          "t": 93.08333333332934,
+          "enemies": 4,
+          "projectiles": 2,
+          "effects": 34,
+          "renderables": 145,
+          "heapMB": 10.753106117248535
+        },
+        {
+          "t": 94.06666666666261,
+          "enemies": 3,
+          "projectiles": 1,
+          "effects": 36,
+          "renderables": 136,
+          "heapMB": 10.933934211730957
+        },
+        {
+          "t": 95.08333333332922,
+          "enemies": 4,
+          "projectiles": 4,
+          "effects": 30,
+          "renderables": 144,
+          "heapMB": 10.42870807647705
+        },
+        {
+          "t": 96.08333333332916,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 7,
+          "renderables": 144,
+          "heapMB": 10.411164283752441
+        },
+        {
+          "t": 97.08333333332911,
+          "enemies": 4,
+          "projectiles": 1,
+          "effects": 21,
+          "renderables": 144,
+          "heapMB": 10.076994895935059
+        },
+        {
+          "t": 98.06666666666239,
+          "enemies": 5,
+          "projectiles": 4,
+          "effects": 17,
+          "renderables": 153,
+          "heapMB": 10.206427574157715
+        },
+        {
+          "t": 99.083333333329,
+          "enemies": 5,
+          "projectiles": 1,
+          "effects": 11,
+          "renderables": 153,
+          "heapMB": 10.328150749206543
+        },
+        {
+          "t": 100.08333333332894,
+          "enemies": 4,
+          "projectiles": 1,
+          "effects": 30,
+          "renderables": 144,
+          "heapMB": 10.422486305236816
+        },
+        {
+          "t": 101.08333333332888,
+          "enemies": 5,
+          "projectiles": 3,
+          "effects": 25,
+          "renderables": 153,
+          "heapMB": 10.6079683303833
+        },
+        {
+          "t": 102.08333333332882,
+          "enemies": 5,
+          "projectiles": 1,
+          "effects": 11,
+          "renderables": 153,
+          "heapMB": 10.629651069641113
+        },
+        {
+          "t": 103.08333333332877,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 34,
+          "renderables": 145,
+          "heapMB": 10.16991138458252
+        },
+        {
+          "t": 104.08333333332871,
+          "enemies": 5,
+          "projectiles": 1,
+          "effects": 21,
+          "renderables": 153,
+          "heapMB": 10.349751472473145
+        },
+        {
+          "t": 105.08333333332865,
+          "enemies": 5,
+          "projectiles": 0,
+          "effects": 12,
+          "renderables": 153,
+          "heapMB": 10.45845890045166
+        },
+        {
+          "t": 106.0833333333286,
+          "enemies": 5,
+          "projectiles": 2,
+          "effects": 20,
+          "renderables": 153,
+          "heapMB": 10.512146949768066
+        },
+        {
+          "t": 107.06666666666187,
+          "enemies": 6,
+          "projectiles": 3,
+          "effects": 22,
+          "renderables": 162,
+          "heapMB": 10.484814643859863
+        },
+        {
+          "t": 108.08333333332848,
+          "enemies": 6,
+          "projectiles": 0,
+          "effects": 21,
+          "renderables": 162,
+          "heapMB": 10.47365665435791
+        },
+        {
+          "t": 109.06666666666176,
+          "enemies": 6,
+          "projectiles": 1,
+          "effects": 16,
+          "renderables": 162,
+          "heapMB": 10.455018043518066
+        },
+        {
+          "t": 110.08333333332837,
+          "enemies": 6,
+          "projectiles": 0,
+          "effects": 43,
+          "renderables": 162,
+          "heapMB": 10.67393970489502
+        },
+        {
+          "t": 111.08333333332831,
+          "enemies": 6,
+          "projectiles": 2,
+          "effects": 36,
+          "renderables": 162,
+          "heapMB": 10.231156349182129
+        },
+        {
+          "t": 112.06666666666159,
+          "enemies": 5,
+          "projectiles": 3,
+          "effects": 69,
+          "renderables": 155,
+          "heapMB": 10.643837928771973
+        },
+        {
+          "t": 113.0833333333282,
+          "enemies": 6,
+          "projectiles": 1,
+          "effects": 45,
+          "renderables": 163,
+          "heapMB": 10.360093116760254
+        },
+        {
+          "t": 114.08333333332814,
+          "enemies": 6,
+          "projectiles": 0,
+          "effects": 31,
+          "renderables": 163,
+          "heapMB": 10.457715034484863
+        },
+        {
+          "t": 115.08333333332808,
+          "enemies": 5,
+          "projectiles": 0,
+          "effects": 41,
+          "renderables": 154,
+          "heapMB": 10.691498756408691
+        },
+        {
+          "t": 116.08333333332803,
+          "enemies": 6,
+          "projectiles": 4,
+          "effects": 35,
+          "renderables": 163,
+          "heapMB": 10.238118171691895
+        },
+        {
+          "t": 117.08333333332797,
+          "enemies": 5,
+          "projectiles": 1,
+          "effects": 48,
+          "renderables": 155,
+          "heapMB": 10.602448463439941
+        },
+        {
+          "t": 118.08333333332791,
+          "enemies": 5,
+          "projectiles": 5,
+          "effects": 31,
+          "renderables": 154,
+          "heapMB": 10.836773872375488
+        },
+        {
+          "t": 119.08333333332786,
+          "enemies": 6,
+          "projectiles": 3,
+          "effects": 31,
+          "renderables": 163,
+          "heapMB": 10.308968544006348
+        },
+        {
+          "t": 120.0833333333278,
+          "enemies": 5,
+          "projectiles": 1,
+          "effects": 36,
+          "renderables": 155,
+          "heapMB": 10.53557300567627
+        },
+        {
+          "t": 121.08333333332774,
+          "enemies": 5,
+          "projectiles": 1,
+          "effects": 26,
+          "renderables": 154,
+          "heapMB": 10.665894508361816
+        },
+        {
+          "t": 122.08333333332769,
+          "enemies": 5,
+          "projectiles": 0,
+          "effects": 37,
+          "renderables": 154,
+          "heapMB": 10.805272102355957
+        },
+        {
+          "t": 123.08333333332763,
+          "enemies": 5,
+          "projectiles": 1,
+          "effects": 28,
+          "renderables": 154,
+          "heapMB": 10.912064552307129
+        },
+        {
+          "t": 124.08333333332757,
+          "enemies": 5,
+          "projectiles": 4,
+          "effects": 30,
+          "renderables": 154,
+          "heapMB": 10.058457374572754
+        },
+        {
+          "t": 125.08333333332752,
+          "enemies": 5,
+          "projectiles": 4,
+          "effects": 53,
+          "renderables": 154,
+          "heapMB": 10.32314395904541
+        },
+        {
+          "t": 126.08333333332746,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 41,
+          "renderables": 146,
+          "heapMB": 11.486001014709473
+        },
+        {
+          "t": 127.0833333333274,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 19,
+          "renderables": 145,
+          "heapMB": 10.99010944366455
+        },
+        {
+          "t": 128.0833333333274,
+          "enemies": 5,
+          "projectiles": 2,
+          "effects": 26,
+          "renderables": 154,
+          "heapMB": 10.323136329650879
+        },
+        {
+          "t": 129.0833333333282,
+          "enemies": 5,
+          "projectiles": 4,
+          "effects": 23,
+          "renderables": 154,
+          "heapMB": 10.414158821105957
+        },
+        {
+          "t": 130.083333333329,
+          "enemies": 5,
+          "projectiles": 1,
+          "effects": 26,
+          "renderables": 154,
+          "heapMB": 10.454785346984863
+        },
+        {
+          "t": 131.0833333333298,
+          "enemies": 6,
+          "projectiles": 1,
+          "effects": 26,
+          "renderables": 163,
+          "heapMB": 10.499695777893066
+        },
+        {
+          "t": 132.0833333333306,
+          "enemies": 6,
+          "projectiles": 1,
+          "effects": 19,
+          "renderables": 163,
+          "heapMB": 10.48775577545166
+        },
+        {
+          "t": 133.08333333333138,
+          "enemies": 6,
+          "projectiles": 1,
+          "effects": 22,
+          "renderables": 163,
+          "heapMB": 10.602463722229004
+        },
+        {
+          "t": 134.08333333333218,
+          "enemies": 6,
+          "projectiles": 1,
+          "effects": 45,
+          "renderables": 164,
+          "heapMB": 10.81792163848877
+        },
+        {
+          "t": 135.08333333333297,
+          "enemies": 6,
+          "projectiles": 1,
+          "effects": 29,
+          "renderables": 163,
+          "heapMB": 11.064827919006348
+        },
+        {
+          "t": 136.08333333333377,
+          "enemies": 6,
+          "projectiles": 1,
+          "effects": 30,
+          "renderables": 163,
+          "heapMB": 10.385830879211426
+        },
+        {
+          "t": 137.08333333333456,
+          "enemies": 7,
+          "projectiles": 3,
+          "effects": 32,
+          "renderables": 172,
+          "heapMB": 10.502022743225098
+        },
+        {
+          "t": 138.08333333333536,
+          "enemies": 7,
+          "projectiles": 2,
+          "effects": 29,
+          "renderables": 172,
+          "heapMB": 10.614018440246582
+        },
+        {
+          "t": 139.06666666666948,
+          "enemies": 7,
+          "projectiles": 1,
+          "effects": 25,
+          "renderables": 172,
+          "heapMB": 10.787693977355957
+        },
+        {
+          "t": 140.08333333333695,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 31,
+          "renderables": 181,
+          "heapMB": 11.124062538146973
+        },
+        {
+          "t": 141.08333333333775,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 33,
+          "renderables": 181,
+          "heapMB": 10.64107608795166
+        },
+        {
+          "t": 142.08333333333854,
+          "enemies": 8,
+          "projectiles": 5,
+          "effects": 37,
+          "renderables": 181,
+          "heapMB": 10.82384967803955
+        },
+        {
+          "t": 143.08333333333934,
+          "enemies": 8,
+          "projectiles": 5,
+          "effects": 56,
+          "renderables": 181,
+          "heapMB": 11.202885627746582
+        },
+        {
+          "t": 144.06666666667346,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 38,
+          "renderables": 181,
+          "heapMB": 10.850281715393066
+        },
+        {
+          "t": 145.08333333334093,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 34,
+          "renderables": 181,
+          "heapMB": 11.172024726867676
+        },
+        {
+          "t": 146.08333333334173,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 34,
+          "renderables": 181,
+          "heapMB": 10.780587196350098
+        },
+        {
+          "t": 147.08333333334252,
+          "enemies": 6,
+          "projectiles": 2,
+          "effects": 64,
+          "renderables": 164,
+          "heapMB": 10.340842247009277
+        },
+        {
+          "t": 148.08333333334332,
+          "enemies": 5,
+          "projectiles": 2,
+          "effects": 70,
+          "renderables": 161,
+          "heapMB": 10.952242851257324
+        },
+        {
+          "t": 149.08333333334411,
+          "enemies": 6,
+          "projectiles": 4,
+          "effects": 50,
+          "renderables": 169,
+          "heapMB": 11.330916404724121
+        },
+        {
+          "t": 150.0833333333449,
+          "enemies": 6,
+          "projectiles": 1,
+          "effects": 33,
+          "renderables": 169,
+          "heapMB": 10.767006874084473
+        },
+        {
+          "t": 151.0833333333457,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 61,
+          "renderables": 152,
+          "heapMB": 10.445759773254395
+        },
+        {
+          "t": 152.0833333333465,
+          "enemies": 4,
+          "projectiles": 2,
+          "effects": 37,
+          "renderables": 152,
+          "heapMB": 11.461522102355957
+        },
+        {
+          "t": 153.0833333333473,
+          "enemies": 4,
+          "projectiles": 1,
+          "effects": 17,
+          "renderables": 151,
+          "heapMB": 10.682782173156738
+        },
+        {
+          "t": 154.0833333333481,
+          "enemies": 4,
+          "projectiles": 1,
+          "effects": 18,
+          "renderables": 151,
+          "heapMB": 11.233529090881348
+        },
+        {
+          "t": 155.0833333333489,
+          "enemies": 5,
+          "projectiles": 4,
+          "effects": 22,
+          "renderables": 160,
+          "heapMB": 11.836686134338379
+        },
+        {
+          "t": 156.08333333334969,
+          "enemies": 5,
+          "projectiles": 1,
+          "effects": 17,
+          "renderables": 160,
+          "heapMB": 10.97768497467041
+        },
+        {
+          "t": 157.08333333335048,
+          "enemies": 5,
+          "projectiles": 1,
+          "effects": 22,
+          "renderables": 160,
+          "heapMB": 10.957215309143066
+        },
+        {
+          "t": 158.08333333335128,
+          "enemies": 6,
+          "projectiles": 0,
+          "effects": 29,
+          "renderables": 169,
+          "heapMB": 11.066445350646973
+        },
+        {
+          "t": 159.08333333335207,
+          "enemies": 5,
+          "projectiles": 2,
+          "effects": 45,
+          "renderables": 161,
+          "heapMB": 10.46672534942627
+        },
+        {
+          "t": 160.08333333335287,
+          "enemies": 5,
+          "projectiles": 2,
+          "effects": 44,
+          "renderables": 160,
+          "heapMB": 10.714879035949707
+        },
+        {
+          "t": 161.08333333335366,
+          "enemies": 6,
+          "projectiles": 1,
+          "effects": 33,
+          "renderables": 169,
+          "heapMB": 10.877610206604004
+        },
+        {
+          "t": 162.06666666668778,
+          "enemies": 6,
+          "projectiles": 0,
+          "effects": 18,
+          "renderables": 169,
+          "heapMB": 10.848771095275879
+        },
+        {
+          "t": 163.08333333335526,
+          "enemies": 6,
+          "projectiles": 1,
+          "effects": 25,
+          "renderables": 169,
+          "heapMB": 10.881417274475098
+        },
+        {
+          "t": 164.08333333335605,
+          "enemies": 7,
+          "projectiles": 2,
+          "effects": 29,
+          "renderables": 178,
+          "heapMB": 11.002900123596191
+        },
+        {
+          "t": 165.08333333335685,
+          "enemies": 6,
+          "projectiles": 1,
+          "effects": 48,
+          "renderables": 170,
+          "heapMB": 10.507397651672363
+        },
+        {
+          "t": 166.06666666669096,
+          "enemies": 6,
+          "projectiles": 5,
+          "effects": 43,
+          "renderables": 169,
+          "heapMB": 10.712632179260254
+        },
+        {
+          "t": 167.08333333335844,
+          "enemies": 7,
+          "projectiles": 2,
+          "effects": 31,
+          "renderables": 178,
+          "heapMB": 10.917550086975098
+        },
+        {
+          "t": 168.08333333335923,
+          "enemies": 7,
+          "projectiles": 2,
+          "effects": 20,
+          "renderables": 178,
+          "heapMB": 10.898602485656738
+        },
+        {
+          "t": 169.08333333336003,
+          "enemies": 6,
+          "projectiles": 0,
+          "effects": 29,
+          "renderables": 169,
+          "heapMB": 10.960858345031738
+        },
+        {
+          "t": 170.08333333336083,
+          "enemies": 6,
+          "projectiles": 0,
+          "effects": 43,
+          "renderables": 169,
+          "heapMB": 11.220253944396973
+        },
+        {
+          "t": 171.08333333336162,
+          "enemies": 5,
+          "projectiles": 0,
+          "effects": 38,
+          "renderables": 161,
+          "heapMB": 10.662816047668457
+        },
+        {
+          "t": 172.08333333336242,
+          "enemies": 5,
+          "projectiles": 3,
+          "effects": 30,
+          "renderables": 160,
+          "heapMB": 10.559340476989746
+        },
+        {
+          "t": 173.0833333333632,
+          "enemies": 6,
+          "projectiles": 5,
+          "effects": 33,
+          "renderables": 169,
+          "heapMB": 10.534911155700684
+        },
+        {
+          "t": 174.083333333364,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 52,
+          "renderables": 153,
+          "heapMB": 10.794085502624512
+        },
+        {
+          "t": 175.0833333333648,
+          "enemies": 4,
+          "projectiles": 1,
+          "effects": 14,
+          "renderables": 151,
+          "heapMB": 10.92297077178955
+        },
+        {
+          "t": 176.0833333333656,
+          "enemies": 5,
+          "projectiles": 0,
+          "effects": 13,
+          "renderables": 160,
+          "heapMB": 10.862061500549316
+        },
+        {
+          "t": 177.0833333333664,
+          "enemies": 5,
+          "projectiles": 2,
+          "effects": 11,
+          "renderables": 160,
+          "heapMB": 10.684464454650879
+        },
+        {
+          "t": 178.0833333333672,
+          "enemies": 4,
+          "projectiles": 1,
+          "effects": 44,
+          "renderables": 152,
+          "heapMB": 10.669651985168457
+        },
+        {
+          "t": 179.083333333368,
+          "enemies": 4,
+          "projectiles": 2,
+          "effects": 52,
+          "renderables": 152,
+          "heapMB": 10.804791450500488
+        },
+        {
+          "t": 180,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 24,
+          "renderables": 151,
+          "heapMB": 11.052635192871094
+        },
+        {
+          "t": 180,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 6,
+          "renderables": 151,
+          "heapMB": 11.383957862854004
+        }
+      ]
+    },
+    {
+      "id": "stress",
+      "label": "Stress setup (180 s, spawn every 1 s)",
+      "frames": 20578,
+      "avgFps": 113.9,
+      "frameMs": {
+        "mean": 8.78,
+        "p50": 8.7,
+        "p95": 10.6,
+        "p99": 12.2,
+        "max": 41.8
+      },
+      "slowFrames": {
+        "over20ms": 6,
+        "over33ms": 1
+      },
+      "entities": {
+        "enemiesMax": 8,
+        "enemiesAvg": 7.4,
+        "projectilesMax": 8,
+        "projectilesAvg": 1.7,
+        "effectsMax": 72,
+        "renderablesMax": 203
+      },
+      "heapMB": {
+        "start": 11.23,
+        "end": 11.47,
+        "max": 13.48
+      },
+      "match": {
+        "score": 55,
+        "elapsed": 180,
+        "stats": {
+          "playerShots": {
+            "front": 432,
+            "left": 150,
+            "right": 150
+          },
+          "enemyShots": 306,
+          "projectilesFired": 1638,
+          "hitsOnEnemies": 157,
+          "hitsOnPlayer": 296,
+          "enemiesSpawned": 92,
+          "enemiesSunk": 55,
+          "chasersRammed": 29
+        }
+      },
+      "timeline": [
+        {
+          "t": 1.0833333333333344,
+          "enemies": 0,
+          "projectiles": 1,
+          "effects": 17,
+          "renderables": 55,
+          "heapMB": 11.229385375976562
+        },
+        {
+          "t": 2.066666666666664,
+          "enemies": 1,
+          "projectiles": 3,
+          "effects": 15,
+          "renderables": 68,
+          "heapMB": 10.56329345703125
+        },
+        {
+          "t": 3.0833333333333273,
+          "enemies": 2,
+          "projectiles": 8,
+          "effects": 15,
+          "renderables": 77,
+          "heapMB": 9.752738952636719
+        },
+        {
+          "t": 4.083333333333324,
+          "enemies": 3,
+          "projectiles": 5,
+          "effects": 35,
+          "renderables": 97,
+          "heapMB": 11.98525619506836
+        },
+        {
+          "t": 5.083333333333321,
+          "enemies": 3,
+          "projectiles": 4,
+          "effects": 49,
+          "renderables": 110,
+          "heapMB": 11.697905540466309
+        },
+        {
+          "t": 6.083333333333317,
+          "enemies": 4,
+          "projectiles": 0,
+          "effects": 22,
+          "renderables": 120,
+          "heapMB": 11.007170677185059
+        },
+        {
+          "t": 7.0833333333333135,
+          "enemies": 4,
+          "projectiles": 1,
+          "effects": 32,
+          "renderables": 121,
+          "heapMB": 11.149128913879395
+        },
+        {
+          "t": 8.083333333333314,
+          "enemies": 5,
+          "projectiles": 2,
+          "effects": 23,
+          "renderables": 129,
+          "heapMB": 11.292393684387207
+        },
+        {
+          "t": 9.083333333333364,
+          "enemies": 6,
+          "projectiles": 0,
+          "effects": 27,
+          "renderables": 138,
+          "heapMB": 10.518380165100098
+        },
+        {
+          "t": 10.083333333333414,
+          "enemies": 7,
+          "projectiles": 4,
+          "effects": 30,
+          "renderables": 147,
+          "heapMB": 12.545605659484863
+        },
+        {
+          "t": 11.083333333333464,
+          "enemies": 7,
+          "projectiles": 4,
+          "effects": 45,
+          "renderables": 151,
+          "heapMB": 12.039277076721191
+        },
+        {
+          "t": 12.083333333333513,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 22,
+          "renderables": 160,
+          "heapMB": 11.469502449035645
+        },
+        {
+          "t": 13.083333333333563,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 32,
+          "renderables": 160,
+          "heapMB": 10.772290229797363
+        },
+        {
+          "t": 14.083333333333613,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 21,
+          "renderables": 160,
+          "heapMB": 12.98998737335205
+        },
+        {
+          "t": 15.066666666666995,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 19,
+          "renderables": 160,
+          "heapMB": 11.927456855773926
+        },
+        {
+          "t": 16.0833333333337,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 30,
+          "renderables": 160,
+          "heapMB": 13.484375953674316
+        },
+        {
+          "t": 17.06666666666698,
+          "enemies": 8,
+          "projectiles": 4,
+          "effects": 42,
+          "renderables": 160,
+          "heapMB": 12.064736366271973
+        },
+        {
+          "t": 18.083333333333588,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 34,
+          "renderables": 160,
+          "heapMB": 11.252156257629395
+        },
+        {
+          "t": 19.08333333333353,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 27,
+          "renderables": 160,
+          "heapMB": 13.360493659973145
+        },
+        {
+          "t": 20.083333333333474,
+          "enemies": 7,
+          "projectiles": 1,
+          "effects": 43,
+          "renderables": 151,
+          "heapMB": 12.300889015197754
+        },
+        {
+          "t": 21.083333333333417,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 30,
+          "renderables": 160,
+          "heapMB": 11.174954414367676
+        },
+        {
+          "t": 22.08333333333336,
+          "enemies": 6,
+          "projectiles": 0,
+          "effects": 72,
+          "renderables": 162,
+          "heapMB": 9.741063117980957
+        },
+        {
+          "t": 23.083333333333304,
+          "enemies": 7,
+          "projectiles": 3,
+          "effects": 53,
+          "renderables": 169,
+          "heapMB": 11.515707969665527
+        },
+        {
+          "t": 24.083333333333247,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 32,
+          "renderables": 178,
+          "heapMB": 9.85926342010498
+        },
+        {
+          "t": 25.066666666666524,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 50,
+          "renderables": 179,
+          "heapMB": 11.659104347229004
+        },
+        {
+          "t": 26.083333333333133,
+          "enemies": 7,
+          "projectiles": 1,
+          "effects": 61,
+          "renderables": 171,
+          "heapMB": 10.561894416809082
+        },
+        {
+          "t": 27.083333333333076,
+          "enemies": 7,
+          "projectiles": 2,
+          "effects": 64,
+          "renderables": 171,
+          "heapMB": 12.461472511291504
+        },
+        {
+          "t": 28.08333333333302,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 33,
+          "renderables": 179,
+          "heapMB": 11.103638648986816
+        },
+        {
+          "t": 29.083333333332963,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 29,
+          "renderables": 179,
+          "heapMB": 12.265740394592285
+        },
+        {
+          "t": 30.083333333332906,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 22,
+          "renderables": 179,
+          "heapMB": 10.343659400939941
+        },
+        {
+          "t": 31.08333333333285,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 45,
+          "renderables": 180,
+          "heapMB": 12.640732765197754
+        },
+        {
+          "t": 32.083333333332796,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 43,
+          "renderables": 180,
+          "heapMB": 11.21288013458252
+        },
+        {
+          "t": 33.06666666666607,
+          "enemies": 8,
+          "projectiles": 4,
+          "effects": 40,
+          "renderables": 179,
+          "heapMB": 12.797566413879395
+        },
+        {
+          "t": 34.066666666666016,
+          "enemies": 7,
+          "projectiles": 3,
+          "effects": 52,
+          "renderables": 171,
+          "heapMB": 11.24999713897705
+        },
+        {
+          "t": 35.083333333332625,
+          "enemies": 8,
+          "projectiles": 5,
+          "effects": 50,
+          "renderables": 179,
+          "heapMB": 12.9409761428833
+        },
+        {
+          "t": 36.08333333333257,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 31,
+          "renderables": 179,
+          "heapMB": 11.373688697814941
+        },
+        {
+          "t": 37.066666666665846,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 30,
+          "renderables": 179,
+          "heapMB": 12.792733192443848
+        },
+        {
+          "t": 38.083333333332455,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 36,
+          "renderables": 179,
+          "heapMB": 11.187581062316895
+        },
+        {
+          "t": 39.06666666666573,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 43,
+          "renderables": 181,
+          "heapMB": 12.990559577941895
+        },
+        {
+          "t": 40.08333333333234,
+          "enemies": 8,
+          "projectiles": 3,
+          "effects": 53,
+          "renderables": 181,
+          "heapMB": 11.620491981506348
+        },
+        {
+          "t": 41.083333333332284,
+          "enemies": 7,
+          "projectiles": 3,
+          "effects": 67,
+          "renderables": 177,
+          "heapMB": 13.147400856018066
+        },
+        {
+          "t": 42.08333333333223,
+          "enemies": 8,
+          "projectiles": 3,
+          "effects": 44,
+          "renderables": 185,
+          "heapMB": 11.642510414123535
+        },
+        {
+          "t": 43.08333333333217,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 54,
+          "renderables": 186,
+          "heapMB": 11.159682273864746
+        },
+        {
+          "t": 44.083333333332114,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 33,
+          "renderables": 185,
+          "heapMB": 12.558211326599121
+        },
+        {
+          "t": 45.08333333333206,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 28,
+          "renderables": 185,
+          "heapMB": 10.511963844299316
+        },
+        {
+          "t": 46.083333333332,
+          "enemies": 8,
+          "projectiles": 3,
+          "effects": 35,
+          "renderables": 185,
+          "heapMB": 11.481762886047363
+        },
+        {
+          "t": 47.08333333333194,
+          "enemies": 8,
+          "projectiles": 4,
+          "effects": 52,
+          "renderables": 185,
+          "heapMB": 12.636845588684082
+        },
+        {
+          "t": 48.083333333331886,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 54,
+          "renderables": 186,
+          "heapMB": 10.921395301818848
+        },
+        {
+          "t": 49.08333333333183,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 43,
+          "renderables": 185,
+          "heapMB": 12.130269050598145
+        },
+        {
+          "t": 50.08333333333177,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 46,
+          "renderables": 185,
+          "heapMB": 10.253087043762207
+        },
+        {
+          "t": 51.083333333331716,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 42,
+          "renderables": 185,
+          "heapMB": 11.459946632385254
+        },
+        {
+          "t": 52.08333333333166,
+          "enemies": 8,
+          "projectiles": 3,
+          "effects": 51,
+          "renderables": 187,
+          "heapMB": 12.580426216125488
+        },
+        {
+          "t": 53.066666666664936,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 58,
+          "renderables": 187,
+          "heapMB": 10.621380805969238
+        },
+        {
+          "t": 54.06666666666488,
+          "enemies": 7,
+          "projectiles": 2,
+          "effects": 67,
+          "renderables": 178,
+          "heapMB": 12.0127534866333
+        },
+        {
+          "t": 55.08333333333149,
+          "enemies": 7,
+          "projectiles": 0,
+          "effects": 66,
+          "renderables": 193,
+          "heapMB": 10.583542823791504
+        },
+        {
+          "t": 56.08333333333143,
+          "enemies": 7,
+          "projectiles": 1,
+          "effects": 63,
+          "renderables": 194,
+          "heapMB": 11.93471622467041
+        },
+        {
+          "t": 57.06666666666471,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 42,
+          "renderables": 202,
+          "heapMB": 13.202393531799316
+        },
+        {
+          "t": 58.08333333333132,
+          "enemies": 7,
+          "projectiles": 1,
+          "effects": 70,
+          "renderables": 194,
+          "heapMB": 11.404709815979004
+        },
+        {
+          "t": 59.066666666664595,
+          "enemies": 7,
+          "projectiles": 0,
+          "effects": 52,
+          "renderables": 193,
+          "heapMB": 12.767842292785645
+        },
+        {
+          "t": 60.083333333331204,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 32,
+          "renderables": 202,
+          "heapMB": 10.847233772277832
+        },
+        {
+          "t": 61.08333333333115,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 40,
+          "renderables": 202,
+          "heapMB": 11.95329761505127
+        },
+        {
+          "t": 62.08333333333109,
+          "enemies": 8,
+          "projectiles": 4,
+          "effects": 31,
+          "renderables": 202,
+          "heapMB": 13.002942085266113
+        },
+        {
+          "t": 63.06666666666437,
+          "enemies": 6,
+          "projectiles": 1,
+          "effects": 63,
+          "renderables": 186,
+          "heapMB": 11.204890251159668
+        },
+        {
+          "t": 64.08333333333098,
+          "enemies": 7,
+          "projectiles": 3,
+          "effects": 44,
+          "renderables": 193,
+          "heapMB": 12.413947105407715
+        },
+        {
+          "t": 65.06666666666426,
+          "enemies": 7,
+          "projectiles": 1,
+          "effects": 49,
+          "renderables": 194,
+          "heapMB": 10.36351490020752
+        },
+        {
+          "t": 66.08333333333087,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 36,
+          "renderables": 202,
+          "heapMB": 11.416047096252441
+        },
+        {
+          "t": 67.08333333333081,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 34,
+          "renderables": 202,
+          "heapMB": 12.47704792022705
+        },
+        {
+          "t": 68.08333333333076,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 25,
+          "renderables": 202,
+          "heapMB": 10.507584571838379
+        },
+        {
+          "t": 69.0833333333307,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 19,
+          "renderables": 202,
+          "heapMB": 11.417378425598145
+        },
+        {
+          "t": 70.08333333333064,
+          "enemies": 8,
+          "projectiles": 3,
+          "effects": 34,
+          "renderables": 202,
+          "heapMB": 12.389458656311035
+        },
+        {
+          "t": 71.06666666666392,
+          "enemies": 8,
+          "projectiles": 4,
+          "effects": 54,
+          "renderables": 202,
+          "heapMB": 10.353121757507324
+        },
+        {
+          "t": 72.08333333333053,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 44,
+          "renderables": 202,
+          "heapMB": 10.839255332946777
+        },
+        {
+          "t": 73.0666666666638,
+          "enemies": 7,
+          "projectiles": 0,
+          "effects": 45,
+          "renderables": 193,
+          "heapMB": 10.481417655944824
+        },
+        {
+          "t": 74.06666666666375,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 36,
+          "renderables": 202,
+          "heapMB": 11.561945915222168
+        },
+        {
+          "t": 75.08333333333036,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 23,
+          "renderables": 202,
+          "heapMB": 11.028058052062988
+        },
+        {
+          "t": 76.0833333333303,
+          "enemies": 8,
+          "projectiles": 3,
+          "effects": 31,
+          "renderables": 202,
+          "heapMB": 10.481080055236816
+        },
+        {
+          "t": 77.08333333333024,
+          "enemies": 7,
+          "projectiles": 1,
+          "effects": 58,
+          "renderables": 194,
+          "heapMB": 11.520085334777832
+        },
+        {
+          "t": 78.08333333333019,
+          "enemies": 7,
+          "projectiles": 0,
+          "effects": 61,
+          "renderables": 193,
+          "heapMB": 11.176468849182129
+        },
+        {
+          "t": 79.08333333333013,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 39,
+          "renderables": 202,
+          "heapMB": 10.817387580871582
+        },
+        {
+          "t": 80.06666666666341,
+          "enemies": 7,
+          "projectiles": 0,
+          "effects": 49,
+          "renderables": 194,
+          "heapMB": 10.477608680725098
+        },
+        {
+          "t": 81.08333333333002,
+          "enemies": 8,
+          "projectiles": 5,
+          "effects": 30,
+          "renderables": 202,
+          "heapMB": 11.54344654083252
+        },
+        {
+          "t": 82.0666666666633,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 34,
+          "renderables": 202,
+          "heapMB": 11.059834480285645
+        },
+        {
+          "t": 83.0833333333299,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 33,
+          "renderables": 202,
+          "heapMB": 10.417363166809082
+        },
+        {
+          "t": 84.08333333332985,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 29,
+          "renderables": 202,
+          "heapMB": 11.34825611114502
+        },
+        {
+          "t": 85.08333333332979,
+          "enemies": 7,
+          "projectiles": 2,
+          "effects": 47,
+          "renderables": 193,
+          "heapMB": 10.854317665100098
+        },
+        {
+          "t": 86.08333333332973,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 45,
+          "renderables": 202,
+          "heapMB": 10.531277656555176
+        },
+        {
+          "t": 87.08333333332968,
+          "enemies": 7,
+          "projectiles": 2,
+          "effects": 62,
+          "renderables": 194,
+          "heapMB": 10.56313419342041
+        },
+        {
+          "t": 88.08333333332962,
+          "enemies": 7,
+          "projectiles": 3,
+          "effects": 63,
+          "renderables": 194,
+          "heapMB": 11.794632911682129
+        },
+        {
+          "t": 89.08333333332956,
+          "enemies": 7,
+          "projectiles": 4,
+          "effects": 53,
+          "renderables": 193,
+          "heapMB": 11.60161304473877
+        },
+        {
+          "t": 90.06666666666284,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 30,
+          "renderables": 202,
+          "heapMB": 10.172574996948242
+        },
+        {
+          "t": 91.08333333332945,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 27,
+          "renderables": 202,
+          "heapMB": 11.203204154968262
+        },
+        {
+          "t": 92.08333333332939,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 26,
+          "renderables": 202,
+          "heapMB": 10.629733085632324
+        },
+        {
+          "t": 93.08333333332934,
+          "enemies": 7,
+          "projectiles": 1,
+          "effects": 47,
+          "renderables": 194,
+          "heapMB": 11.645106315612793
+        },
+        {
+          "t": 94.08333333332928,
+          "enemies": 7,
+          "projectiles": 1,
+          "effects": 59,
+          "renderables": 194,
+          "heapMB": 11.36829662322998
+        },
+        {
+          "t": 95.08333333332922,
+          "enemies": 6,
+          "projectiles": 3,
+          "effects": 57,
+          "renderables": 185,
+          "heapMB": 11.011609077453613
+        },
+        {
+          "t": 96.08333333332916,
+          "enemies": 7,
+          "projectiles": 0,
+          "effects": 25,
+          "renderables": 193,
+          "heapMB": 10.471135139465332
+        },
+        {
+          "t": 97.08333333332911,
+          "enemies": 7,
+          "projectiles": 1,
+          "effects": 38,
+          "renderables": 194,
+          "heapMB": 11.435467720031738
+        },
+        {
+          "t": 98.06666666666239,
+          "enemies": 7,
+          "projectiles": 2,
+          "effects": 36,
+          "renderables": 193,
+          "heapMB": 11.041810035705566
+        },
+        {
+          "t": 99.06666666666233,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 27,
+          "renderables": 202,
+          "heapMB": 10.578579902648926
+        },
+        {
+          "t": 100.08333333332894,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 20,
+          "renderables": 202,
+          "heapMB": 11.325528144836426
+        },
+        {
+          "t": 101.08333333332888,
+          "enemies": 7,
+          "projectiles": 3,
+          "effects": 35,
+          "renderables": 193,
+          "heapMB": 10.64665699005127
+        },
+        {
+          "t": 102.08333333332882,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 23,
+          "renderables": 202,
+          "heapMB": 10.782082557678223
+        },
+        {
+          "t": 103.08333333332877,
+          "enemies": 7,
+          "projectiles": 0,
+          "effects": 54,
+          "renderables": 194,
+          "heapMB": 10.396389961242676
+        },
+        {
+          "t": 104.08333333332871,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 19,
+          "renderables": 202,
+          "heapMB": 11.400456428527832
+        },
+        {
+          "t": 105.08333333332865,
+          "enemies": 7,
+          "projectiles": 0,
+          "effects": 29,
+          "renderables": 194,
+          "heapMB": 10.833107948303223
+        },
+        {
+          "t": 106.0833333333286,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 19,
+          "renderables": 202,
+          "heapMB": 11.751862525939941
+        },
+        {
+          "t": 107.08333333332854,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 19,
+          "renderables": 202,
+          "heapMB": 11.020524024963379
+        },
+        {
+          "t": 108.06666666666182,
+          "enemies": 6,
+          "projectiles": 0,
+          "effects": 38,
+          "renderables": 184,
+          "heapMB": 11.046998023986816
+        },
+        {
+          "t": 109.06666666666176,
+          "enemies": 7,
+          "projectiles": 0,
+          "effects": 20,
+          "renderables": 193,
+          "heapMB": 10.437928199768066
+        },
+        {
+          "t": 110.08333333332837,
+          "enemies": 7,
+          "projectiles": 0,
+          "effects": 31,
+          "renderables": 193,
+          "heapMB": 10.543244361877441
+        },
+        {
+          "t": 111.08333333332831,
+          "enemies": 8,
+          "projectiles": 3,
+          "effects": 16,
+          "renderables": 202,
+          "heapMB": 10.689385414123535
+        },
+        {
+          "t": 112.08333333332826,
+          "enemies": 8,
+          "projectiles": 4,
+          "effects": 24,
+          "renderables": 202,
+          "heapMB": 10.81834888458252
+        },
+        {
+          "t": 113.06666666666153,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 23,
+          "renderables": 202,
+          "heapMB": 10.90959644317627
+        },
+        {
+          "t": 114.08333333332814,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 19,
+          "renderables": 202,
+          "heapMB": 10.951443672180176
+        },
+        {
+          "t": 115.08333333332808,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 18,
+          "renderables": 202,
+          "heapMB": 11.069401741027832
+        },
+        {
+          "t": 116.06666666666136,
+          "enemies": 8,
+          "projectiles": 4,
+          "effects": 21,
+          "renderables": 202,
+          "heapMB": 10.524117469787598
+        },
+        {
+          "t": 117.08333333332797,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 52,
+          "renderables": 202,
+          "heapMB": 11.004647254943848
+        },
+        {
+          "t": 118.08333333332791,
+          "enemies": 8,
+          "projectiles": 6,
+          "effects": 50,
+          "renderables": 202,
+          "heapMB": 10.649518013000488
+        },
+        {
+          "t": 119.08333333332786,
+          "enemies": 8,
+          "projectiles": 5,
+          "effects": 41,
+          "renderables": 202,
+          "heapMB": 10.972084999084473
+        },
+        {
+          "t": 120.0833333333278,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 55,
+          "renderables": 202,
+          "heapMB": 10.963017463684082
+        },
+        {
+          "t": 121.06666666666108,
+          "enemies": 8,
+          "projectiles": 3,
+          "effects": 49,
+          "renderables": 202,
+          "heapMB": 10.526543617248535
+        },
+        {
+          "t": 122.08333333332769,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 39,
+          "renderables": 202,
+          "heapMB": 10.852360725402832
+        },
+        {
+          "t": 123.06666666666096,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 57,
+          "renderables": 202,
+          "heapMB": 10.574334144592285
+        },
+        {
+          "t": 124.08333333332757,
+          "enemies": 7,
+          "projectiles": 2,
+          "effects": 67,
+          "renderables": 194,
+          "heapMB": 10.939629554748535
+        },
+        {
+          "t": 125.06666666666085,
+          "enemies": 8,
+          "projectiles": 3,
+          "effects": 57,
+          "renderables": 202,
+          "heapMB": 10.641266822814941
+        },
+        {
+          "t": 126.0666666666608,
+          "enemies": 7,
+          "projectiles": 0,
+          "effects": 49,
+          "renderables": 194,
+          "heapMB": 11.058377265930176
+        },
+        {
+          "t": 127.0833333333274,
+          "enemies": 7,
+          "projectiles": 0,
+          "effects": 40,
+          "renderables": 194,
+          "heapMB": 11.369656562805176
+        },
+        {
+          "t": 128.0833333333274,
+          "enemies": 7,
+          "projectiles": 0,
+          "effects": 37,
+          "renderables": 194,
+          "heapMB": 10.881226539611816
+        },
+        {
+          "t": 129.0833333333282,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 19,
+          "renderables": 202,
+          "heapMB": 11.767685890197754
+        },
+        {
+          "t": 130.083333333329,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 20,
+          "renderables": 202,
+          "heapMB": 11.113720893859863
+        },
+        {
+          "t": 131.0833333333298,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 20,
+          "renderables": 202,
+          "heapMB": 11.769856452941895
+        },
+        {
+          "t": 132.0833333333306,
+          "enemies": 7,
+          "projectiles": 1,
+          "effects": 25,
+          "renderables": 193,
+          "heapMB": 10.911248207092285
+        },
+        {
+          "t": 133.08333333333138,
+          "enemies": 7,
+          "projectiles": 0,
+          "effects": 39,
+          "renderables": 193,
+          "heapMB": 11.133408546447754
+        },
+        {
+          "t": 134.08333333333218,
+          "enemies": 6,
+          "projectiles": 0,
+          "effects": 50,
+          "renderables": 185,
+          "heapMB": 10.731438636779785
+        },
+        {
+          "t": 135.08333333333297,
+          "enemies": 6,
+          "projectiles": 4,
+          "effects": 28,
+          "renderables": 184,
+          "heapMB": 11.047863960266113
+        },
+        {
+          "t": 136.08333333333377,
+          "enemies": 6,
+          "projectiles": 1,
+          "effects": 45,
+          "renderables": 185,
+          "heapMB": 11.13878345489502
+        },
+        {
+          "t": 137.08333333333456,
+          "enemies": 6,
+          "projectiles": 0,
+          "effects": 58,
+          "renderables": 185,
+          "heapMB": 11.411507606506348
+        },
+        {
+          "t": 138.08333333333536,
+          "enemies": 7,
+          "projectiles": 1,
+          "effects": 25,
+          "renderables": 193,
+          "heapMB": 10.778302192687988
+        },
+        {
+          "t": 139.08333333333616,
+          "enemies": 7,
+          "projectiles": 0,
+          "effects": 28,
+          "renderables": 193,
+          "heapMB": 10.864476203918457
+        },
+        {
+          "t": 140.06666666667027,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 15,
+          "renderables": 202,
+          "heapMB": 10.92431354522705
+        },
+        {
+          "t": 141.06666666667107,
+          "enemies": 8,
+          "projectiles": 4,
+          "effects": 18,
+          "renderables": 202,
+          "heapMB": 10.933682441711426
+        },
+        {
+          "t": 142.08333333333854,
+          "enemies": 7,
+          "projectiles": 1,
+          "effects": 50,
+          "renderables": 194,
+          "heapMB": 11.051121711730957
+        },
+        {
+          "t": 143.06666666667266,
+          "enemies": 8,
+          "projectiles": 5,
+          "effects": 43,
+          "renderables": 202,
+          "heapMB": 11.293278694152832
+        },
+        {
+          "t": 144.06666666667346,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 39,
+          "renderables": 203,
+          "heapMB": 11.5980806350708
+        },
+        {
+          "t": 145.08333333334093,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 15,
+          "renderables": 202,
+          "heapMB": 10.922993659973145
+        },
+        {
+          "t": 146.06666666667505,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 13,
+          "renderables": 202,
+          "heapMB": 10.727302551269531
+        },
+        {
+          "t": 147.08333333334252,
+          "enemies": 7,
+          "projectiles": 2,
+          "effects": 30,
+          "renderables": 193,
+          "heapMB": 10.65793514251709
+        },
+        {
+          "t": 148.08333333334332,
+          "enemies": 7,
+          "projectiles": 6,
+          "effects": 50,
+          "renderables": 193,
+          "heapMB": 10.832320213317871
+        },
+        {
+          "t": 149.06666666667743,
+          "enemies": 7,
+          "projectiles": 3,
+          "effects": 57,
+          "renderables": 194,
+          "heapMB": 11.151999473571777
+        },
+        {
+          "t": 150.06666666667823,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 25,
+          "renderables": 202,
+          "heapMB": 11.210484504699707
+        },
+        {
+          "t": 151.0833333333457,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 20,
+          "renderables": 202,
+          "heapMB": 10.5372896194458
+        },
+        {
+          "t": 152.0833333333465,
+          "enemies": 7,
+          "projectiles": 2,
+          "effects": 45,
+          "renderables": 194,
+          "heapMB": 10.645607948303223
+        },
+        {
+          "t": 153.0833333333473,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 29,
+          "renderables": 202,
+          "heapMB": 10.827885627746582
+        },
+        {
+          "t": 154.0833333333481,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 32,
+          "renderables": 202,
+          "heapMB": 10.905720710754395
+        },
+        {
+          "t": 155.0833333333489,
+          "enemies": 8,
+          "projectiles": 4,
+          "effects": 30,
+          "renderables": 202,
+          "heapMB": 10.918133735656738
+        },
+        {
+          "t": 156.08333333334969,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 47,
+          "renderables": 202,
+          "heapMB": 11.049466133117676
+        },
+        {
+          "t": 157.08333333335048,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 38,
+          "renderables": 202,
+          "heapMB": 11.26393985748291
+        },
+        {
+          "t": 158.08333333335128,
+          "enemies": 7,
+          "projectiles": 2,
+          "effects": 65,
+          "renderables": 194,
+          "heapMB": 10.911721229553223
+        },
+        {
+          "t": 159.0666666666854,
+          "enemies": 8,
+          "projectiles": 3,
+          "effects": 49,
+          "renderables": 202,
+          "heapMB": 11.280587196350098
+        },
+        {
+          "t": 160.08333333335287,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 56,
+          "renderables": 202,
+          "heapMB": 10.873486518859863
+        },
+        {
+          "t": 161.06666666668698,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 57,
+          "renderables": 203,
+          "heapMB": 11.219326972961426
+        },
+        {
+          "t": 162.08333333335446,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 37,
+          "renderables": 202,
+          "heapMB": 11.393254280090332
+        },
+        {
+          "t": 163.08333333335526,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 38,
+          "renderables": 202,
+          "heapMB": 10.831147193908691
+        },
+        {
+          "t": 164.08333333335605,
+          "enemies": 7,
+          "projectiles": 3,
+          "effects": 61,
+          "renderables": 194,
+          "heapMB": 11.178559303283691
+        },
+        {
+          "t": 165.08333333335685,
+          "enemies": 7,
+          "projectiles": 2,
+          "effects": 61,
+          "renderables": 194,
+          "heapMB": 10.842598915100098
+        },
+        {
+          "t": 166.06666666669096,
+          "enemies": 8,
+          "projectiles": 5,
+          "effects": 48,
+          "renderables": 202,
+          "heapMB": 10.545392036437988
+        },
+        {
+          "t": 167.06666666669176,
+          "enemies": 8,
+          "projectiles": 5,
+          "effects": 38,
+          "renderables": 202,
+          "heapMB": 10.65549373626709
+        },
+        {
+          "t": 168.08333333335923,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 43,
+          "renderables": 202,
+          "heapMB": 10.954253196716309
+        },
+        {
+          "t": 169.08333333336003,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 33,
+          "renderables": 202,
+          "heapMB": 11.077559471130371
+        },
+        {
+          "t": 170.08333333336083,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 35,
+          "renderables": 202,
+          "heapMB": 11.254395484924316
+        },
+        {
+          "t": 171.08333333336162,
+          "enemies": 7,
+          "projectiles": 1,
+          "effects": 53,
+          "renderables": 194,
+          "heapMB": 10.76488971710205
+        },
+        {
+          "t": 172.08333333336242,
+          "enemies": 8,
+          "projectiles": 3,
+          "effects": 45,
+          "renderables": 202,
+          "heapMB": 11.822243690490723
+        },
+        {
+          "t": 173.0833333333632,
+          "enemies": 8,
+          "projectiles": 4,
+          "effects": 57,
+          "renderables": 202,
+          "heapMB": 11.446030616760254
+        },
+        {
+          "t": 174.083333333364,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 32,
+          "renderables": 202,
+          "heapMB": 10.90202808380127
+        },
+        {
+          "t": 175.0833333333648,
+          "enemies": 7,
+          "projectiles": 2,
+          "effects": 50,
+          "renderables": 194,
+          "heapMB": 11.899125099182129
+        },
+        {
+          "t": 176.0833333333656,
+          "enemies": 8,
+          "projectiles": 1,
+          "effects": 25,
+          "renderables": 202,
+          "heapMB": 11.319314002990723
+        },
+        {
+          "t": 177.0833333333664,
+          "enemies": 7,
+          "projectiles": 2,
+          "effects": 38,
+          "renderables": 193,
+          "heapMB": 12.160645484924316
+        },
+        {
+          "t": 178.0833333333672,
+          "enemies": 8,
+          "projectiles": 2,
+          "effects": 42,
+          "renderables": 202,
+          "heapMB": 10.877301216125488
+        },
+        {
+          "t": 179.0666666667013,
+          "enemies": 7,
+          "projectiles": 3,
+          "effects": 65,
+          "renderables": 194,
+          "heapMB": 11.224526405334473
+        },
+        {
+          "t": 180,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 35,
+          "renderables": 202,
+          "heapMB": 10.978771209716797
+        },
+        {
+          "t": 180,
+          "enemies": 8,
+          "projectiles": 0,
+          "effects": 16,
+          "renderables": 202,
+          "heapMB": 11.469876289367676
+        }
+      ]
+    }
+  ],
+  "memory": [
+    {
+      "label": "menu (before any match)",
+      "heapMB": 4.26,
+      "nodes": 82,
+      "listeners": 176,
+      "canvases": 0
+    },
+    {
+      "label": "after cycle 1",
+      "heapMB": 7.14,
+      "nodes": 86,
+      "listeners": 192,
+      "canvases": 0,
+      "enemiesInMatch": 4,
+      "projectilesFired": 161
+    },
+    {
+      "label": "after cycle 2",
+      "heapMB": 7.37,
+      "nodes": 86,
+      "listeners": 192,
+      "canvases": 0,
+      "enemiesInMatch": 5,
+      "projectilesFired": 161
+    },
+    {
+      "label": "after cycle 3",
+      "heapMB": 7.6,
+      "nodes": 86,
+      "listeners": 192,
+      "canvases": 0,
+      "enemiesInMatch": 5,
+      "projectilesFired": 161
+    },
+    {
+      "label": "after cycle 4",
+      "heapMB": 7.74,
+      "nodes": 86,
+      "listeners": 192,
+      "canvases": 0,
+      "enemiesInMatch": 5,
+      "projectilesFired": 161
+    },
+    {
+      "label": "after cycle 5",
+      "heapMB": 7.98,
+      "nodes": 86,
+      "listeners": 192,
+      "canvases": 0,
+      "enemiesInMatch": 5,
+      "projectilesFired": 161
+    }
+  ]
+}
