@@ -2,7 +2,7 @@
 
 A top-down 2D naval shooter built with **React 19, TypeScript (strict), PixiJS 8, TanStack Query, Axios, MSW and Playwright**. Sail between islands, sink enemy ships and climb the ranking before the time runs out.
 
-**Live demo:** `https://pirate-battle-jungle-gaming.vercel.app` (the published build runs the mock API too)
+**Live demo:** https://pirate-battle-jungle-gaming.vercel.app (the published build runs the mock API too)
 
 | Document | Content |
 | --- | --- |
